@@ -1,0 +1,7 @@
+{
+    "require": {
+      "guzzlehttp/guzzle": "^7.0.1",
+      "codeigniter/framework": "3.1.11",
+      "aws/aws-sdk-php": "^3.173.19"
+    }
+  }
