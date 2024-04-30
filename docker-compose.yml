@@ -9,9 +9,11 @@ services:
     depends_on:
       - php
   php:
-    image: php:7.4-fpm
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
-      - ./application:/var/www/html
+      - .:/var/www/html
     depends_on:
       - db
   db:
